@@ -1,0 +1,18 @@
+{
+  "name": "babel-preset-custom-react",
+  "version": "0.0.1",
+  "description": "Babel preset for React apps",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-dynamic-import-node": "^1.0.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-babili": "^0.0.12",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-runtime": "^6.23.0"
+  },
+  "author": "Nitin <tulswani19@gmail.com>"
+}
