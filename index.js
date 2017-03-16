@@ -1,10 +1,10 @@
 const path = require("path");
 
 const plugins = [
-	// Support for property intializers and arrow functions or methods in React class components.
+  // Support for property intializers and arrow functions or methods in React class components.
   require.resolve("babel-plugin-transform-class-properties"),
   [	
-  	// Polyfills the runtime 
+    // Polyfills the runtime 
     require.resolve("babel-plugin-transform-runtime"),
     {
       helpers: false,
