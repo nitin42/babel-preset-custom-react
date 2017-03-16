@@ -14,7 +14,7 @@ Add this to your `.babelrc`
 
 ```
 {
-	"presets": ["custom-react"]
+  "presets": ["custom-react"]
 }
 ```
 
