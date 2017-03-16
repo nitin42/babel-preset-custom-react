@@ -81,7 +81,8 @@ if (env === "test") {
 if (env === "production") {
   module.exports = {
     presets: [
-      [
+      [	
+      	require.resolve("babel-preset-babili"),
         require.resolve("babel-preset-env"),
         {
           targets: {
@@ -102,8 +103,7 @@ if (env === "production") {
           async: false
         }
       ],
-      require.resolve("babel-plugin-syntax-dynamic-import"),
-      require.resolve("babel-preset-babili")
+      require.resolve("babel-plugin-syntax-dynamic-import")
     ])
   };
 }
